@@ -1,4 +1,7 @@
 #backimg{
+    position: relative;
+    right: 0px;
+    top: 32px;
     width: 720px;
     height: 751px;
     background-image: url(../Backgrounds/Poster.jpg);
