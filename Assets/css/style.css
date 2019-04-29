@@ -1,0 +1,44 @@
+#backimg{
+    width: 50vw;
+    height: 100vh;
+    background-image: url(../Backgrounds/Poster.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.btn {
+  position: relative;
+}
+
+
+#one {
+    left: 25%;
+    top: 26%;
+}
+
+#two {
+    left: 50%;
+    top: 26%;
+}
+
+#three {
+    left: -5%;
+    top: 37%;
+}
+
+#four {
+    left: 35%;
+    top: 37%;
+}
+
+#five {
+    left: -27%;
+    top: 50%;
+}
+
+#six {
+    left: 8%;
+    top: 49%;
+}
