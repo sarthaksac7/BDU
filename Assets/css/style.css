@@ -1,10 +1,12 @@
 .backimg{
     position: relative;
     left: 10px;
-    height: 751px;
+    top: 10px;
+    width: 1080px;
+    height: 1920px;
     background-image: url(../Backgrounds/Poster.jpg);
     background-size: contain;
-    background-position: center;
+
     background-repeat: no-repeat;
 }
 
