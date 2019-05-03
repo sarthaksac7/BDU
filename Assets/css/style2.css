@@ -1,0 +1,31 @@
+
+html{
+  background: linear-gradient(#e66465, #9198e5);
+}
+
+
+body{
+  text-align:center;
+  background: linear-gradient(#e66465, #9198e5);
+}
+
+
+.row{
+
+  margin: 0;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.modal{
+  background-image: url(../Backgrounds/Top.png);
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+  max-width: 750px !important;
+  margin: auto;
+}
+
+h2{
+  text-align: center;
+}

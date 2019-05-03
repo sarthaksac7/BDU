@@ -1,13 +1,51 @@
+body{
+  background: #26C5E3;
+}
+
 .backimg{
     position: relative;
-    width: 640px;
-    height: 1080px;
+    width: 50%;
+    height: 1000px;
     background-image: url(../Backgrounds/Poster.jpg);
     background-size: contain;
-    margin: 0 auto;
     background-repeat: no-repeat;
 }
 
+.content {
+  position: relative;
+  width: 50%;
+  height: 1000px;
+  text-align: center;
+  padding: 50px;
+}
+
+#top{
+  max-width: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+#footer{
+  max-width: 100%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.content h3{
+  color: white;
+  font-weight: 900;
+}
+
+.content p{
+  color: white;
+  font-weight: 900;
+  position: absolute;
+  z-index: 10;
+  max-width: 45vw;
+  max-height: 70vh;
+  overflow-x: scroll;
+}
 
 .btn {
   position: relative;
@@ -32,31 +70,31 @@
 
 
 #one {
-    left: 16%;
-    top: 28%;
+    left: 20%;
+    top: 27%;
 }
 
 #two {
-    left: 49%;
-    top: 28%;
+    left: 55%;
+    top: 27%;
 }
 
 #three {
-    left: -24%;
-    top: 37%;
+    left: -11%;
+    top: 38%;
 }
 
 #four {
-    left: 24%;
+    left: 42%;
     top: 39%;
 }
 
 #five {
-    left: -56%;
+    left: -32%;
     top: 50%;
 }
 
 #six {
-    left: -13%;
-    top: 49%;
+    left: 16%;
+    top: 50%;
 }
