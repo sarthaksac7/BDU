@@ -42,6 +42,13 @@ h2{
   overflow-y: scroll;
 }
 
+.carousel-item .container h3{
+  color: white;
+}
+.carousel-item .container p{
+  color: white;
+}
+
 .modal .container img{
   max-width: 50%;
 }
