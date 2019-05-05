@@ -39,6 +39,7 @@ h2{
 .modal p{
   height: 55vh;
   overflow-x: scroll;
+  overflow-y: hidden;
 }
 
 
