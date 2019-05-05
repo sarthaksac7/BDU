@@ -44,7 +44,8 @@ h2{
 
 .carousel-item img{
   width: 100% !important;
-  height: 60vh !important;
+  height: 100% !important;
+  max-height: 60vh !important;
 }
 
 
