@@ -38,8 +38,7 @@ h2{
 
 .modal p{
   height: 55vh;
-  overflow-y: scroll;
-  overflow-x: hidden;
+  overflow: scroll;
 }
 
 .carousel-item img{
