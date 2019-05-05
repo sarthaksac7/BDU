@@ -38,7 +38,8 @@ h2{
 
 .modal p{
   height: 55vh;
-  overflow: scroll;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 .modal .container img{
