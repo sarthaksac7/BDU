@@ -166,6 +166,76 @@
         </map>
 
 
+        <div id="film" class="container-fluid cont">
+          <div id="outer" class="film">
+            <h2 id="filmhead">The Film</h2>
+            <p id="filmpara">
+              Bollywood is a big business globally and since the 1990’s, it has been experiencing a massive boom downunder. Australia jumped on board the Bollywood bandwagon decades ago and has been on it ever since and with lucrative results. With colourful, chaotic, and musical film crews traveling Downunder, the world’s biggest film industry has discovered that a film friendly Australia us a land of many rules, regulations and red tape that often perplexes those who have fallen in love with our plunging cliffs, virgin beaches, film friendly culture and kangaroos.
+              <br><br>
+              Bollywood starts, film crews, with their umbrella boys and entourage flock Downunder lured by rich spectrum of locations and great weather which camouflages eager Australian diplomats and tourism bodies who are after a lions’ share of a phenomenon that has swept the globe. Bollywood has saturated our senses with colourful visuals, boisterous music, and spicy touch of not just the food, but controversies and scams. It’s not just the saris making Australian politicians stand up and take notice, there are serious export dollars and diplomatic ties at stake, not to mention billions of dollars for allied industries like tourism and overseas students who follow Bollywood.
+              <br><br>
+              This documentary, driven from the point of view of Australian filmmaker Anupam Sharma, is a celebration of a rich part of Australian film culture and simultaneously an exploration into an industry that has won Australian hearts, yet managed to keep it’s underbelly and scams under wraps, at least till this documentary is released.
+              <br><br>
+              Anupam and his crew’s personal experiences over the past decades working with the Bollywood film industry on Australia’s behalf and navigating the Australian landscape of unions, immigration and film culture on Bollywood’s behalf will highlight the ironies, comedy, tragedy, pitfalls, bureaucracy, politics and media hype of the fast growing Indian chapter of the Australian film industry.
+              <br><br>
+              In a sometimes-hilarious clash of film making cultures, this colourful roller coaster is set against a backdrop mesmerising Australian landscape. We explore the successes and failures of Bollywood in Australia and its rise as a serious Australian subculture, weaving our way through the marketing campaigns, star powers and scandals in this hectic exploration of the Australian competitive drive to win a slice of the global Bollywood buck. We will go back to 2010, when the scene reached its crescendo with announcements of Bollywood policies, massive government & private cash injections into anything Australian with Bollywood links, yet that’s when the Bollywood shoots in Australia almost came to a halt. What happened that our love affair with Bollywood lost its lustre?
+              </p>
+          </div>
+        </div>
+
+        <div id="story" class="container-fluid cont">
+          <div id="outer" class="story">
+            <h2 id="storyhead">Your Bollywood Story</h2>
+            <p style="margin-top: 30%;">
+              Have you been looking to tell your Bollywood story? <br> Look no further, take advantage of this rare platform to voice your Bollywood story in Australia or anywhere outside India, negative or positive, unique. <br> If shortlisted you will be interviewed for the film and your experience shared through the film or our social media. We are looking forward to hearing from you all. Please do email us on <a href="mailto:BDUfilm@gmail.com">BDUfilm@gmail.com</a>.
+            </p>
+          </div>
+
+        </div>
+
+        <div id="distribution" class="container-fluid cont">
+          <div id="outer">
+            <h2 id="distributionhead">Distribution & Sales</h2>
+            <p style="margin-top: 30%;">
+              Contact us for distribution or sales in your territory
+              ANZ Theatrical and South Asia Territories for theatrical are no longer available. Non theatrical rights available globally.
+              Email: <a href="mailto:BDUfilm@gmail.com">BDUfilm@gmail.com</a>.
+            </p>
+          </div>
+        </div>
+
+        <div id="media" class="container-fluid cont">
+          <div id="outer">
+            <h2 id="outerhead">Media</h2>
+            <h4 style="text-align: left;">Anupam Sharma's Temple Films Inks First Look Deal With Forum Films</h4>
+            <p>Australian producer Anupam Sharma has inked a first look deal with Bollywood speciality distribution company Forum Films, as Forum eyes expansion with more mainstream Australian titles, the pair announced Wednesday.
+            <br>
+            Sharma, through his Sydney-based shingle Temple Films, is a pioneer of Australia’s film industry links with India, championing diversity in the Australian screen sector and promotion of Australian films in nontraditional and emerging markets.
+            <br>
+            He has produced Australian-Indian English-language features such as The Run, UnINDIAN, Indian Aussies – Terms & Conditions Apply, among many others....
+            <a href="#0">Read More</a>
+            </p>
+          </div>
+        </div>
+
+        <div id="contact_connect" class="container-fluid cont">
+          <div id="outer">
+            <h2>Connect with us</h2>
+            <p>
+              <a href="https://www.facebook.com/BollywoodDownunderFilm/">
+              <img src="Assets/facebook.png" alt="" style="width: 80px;">
+              </a>
+              <a href="https://twitter.com/icindiancinema">
+              <img src="Assets/twitter.png" alt="" style="width: 57px;">
+              </a>
+            </p>
+          </div>
+        </div>
+
+
+
+
+
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -216,6 +286,23 @@
         $("#contact").modal({
           fadeDuration: 300
         });
+      });
+
+      $(window).scroll(function(){
+        // This is then function used to detect if the element is scrolled into view
+        function elementScrolled(elem)
+        {
+          var docViewTop = $(window).scrollTop();
+          var docViewBottom = docViewTop + $(window).height();
+          var elemTop = $(elem).offset().top;
+          return ((elemTop <= docViewBottom) && (elemTop >= docViewTop));
+        }
+
+        // This is where we use the function to detect if ".box2" is scrolled into view, and when it is add the class ".animated" to the <p> child element
+        if(elementScrolled('#outer')) {
+          const element =  document.querySelector('#outerhead')
+          element.classList.add('animated', 'tada')
+        }
       });
 
     </script>
